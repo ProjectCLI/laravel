@@ -1,0 +1,5 @@
+name: projectcli/laravel
+description: Laravel specific commands
+version: v1.0.0
+commands:
+    - \ProjectCLI\Laravel\Commands\ArtisanCommand
