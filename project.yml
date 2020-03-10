@@ -3,3 +3,4 @@ description: Laravel specific commands
 version: v1.0.0
 commands:
     - \ProjectCLI\Laravel\Commands\ArtisanCommand
+    - \ProjectCLI\Laravel\Commands\CreateCommand
