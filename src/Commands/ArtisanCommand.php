@@ -44,6 +44,7 @@ class ArtisanCommand extends Command
     public static function isActive() : bool
     {
         return PROJECT_IS_INSIDE
+            && Helpers::isProjectType('php')
             && file_exists(Helpers::projectPath('src/artisan'));
     }
 
