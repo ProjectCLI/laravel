@@ -39,7 +39,6 @@ class CreateCommand extends Command
         mkdir($tmp, 0755, true);
 
         Helpers::recursiveCopy("{$src}/_setup", $tmp);
-        copy("{$src}/.gitignore", "{$tmp}/.gitignore");
 
         Helpers::rmdir($src);
         Helpers::recursiveCopy($tmp, $src);
